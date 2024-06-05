@@ -6,63 +6,68 @@ console.log('Scripts loaded!');
 
 // Step 1: Declare two variables 'a' and 'b' and assign them numeric values.
 // Example: let a; let b;
+let a = 5;
+let b = 3;
 // Assign appropriate numeric values to these variables. For example 3 and 5
 // I have used prompt here to allow you to enter numbers on page load!
 // parseFloat() method is a JavaScript function used to convert strings into floating-point numbers
 // :) Continue to Step 2
-let a = parseFloat(prompt('Enter Number for a'));
-let b = parseFloat(prompt('Enter Number for b'));
+//let a = parseFloat(prompt('Enter Number for a'));
+//let b = parseFloat(prompt('Enter Number for b'));
 
 // Step 2: Use equality and inequality operators to compare the variables.
 // Example: let isEqual;
 // Use '==' to compare 'a' and 'b' for equality.
-a == b;
+let isEqual = (a==b);
 
 // Example: let isStrictEqual;
 // Use '===' to compare 'a' and 'b' for strict equality.
+let isStrictEqual = (a===b);
 
 // Example: let isNotEqual;
 // Use '!=' to compare 'a' and 'b' for inequality.
-
+let isNotEqual = (a!=b);
 // Example: let isStrictNotEqual;
 // Use '!==' to compare 'a' and 'b' for strict inequality.
+isStrictNotEqual = (a!==b);
 
 // Step 3: Perform basic mathematical operations.
 // Example: let add;
 // Add 'a' and 'b'.
-
+let add = a+b;
 // Example: let sub;
 // Subtract 'b' from 'a'.
-
+let sub = a-b;
 // Example: let multiply;
 // Multiply 'a' and 'b'.
-
+let multiply = a*b;
 // Example: let power; use ** as the operator
 // Raise 'a' to the power of 'b'.
-
+let power = a**b;
 // Example: let division;
 // Divide 'a' by 'b'.
-
+let division = a/b;
 // Step 4: Use comparison operators to compare the variables.
 // Example: let isGreaterThan;
 // Check if 'a' is greater than 'b'.
-
+let isGreaterThan = a > b;
 // Example: let isGreaterOrEqual;
 // Check if 'a' is greater than or equal to 'b'.
+let isGreaterOrEqual = a >= b;
 
 // Example: let isLessThan;
 // Check if 'a' is less than 'b'.
-
+let isLessThan = a < b;
 // Example: let isLessOrEqual;
 // Check if 'a' is less than or equal to 'b'.
-
+let isLessOrEqual = a <= b;
 // Step 5: Apply binary logic with short-circuit evaluation.
 // Example: let andResult;
 // Use '&&' to check if both 'a' and 'b' are greater than 5.
-
+let andResult = (a>5 && b>5);
 // Example: let orResult;
 // Use '||' to check if either 'a' or 'b' is greater than 5.
-
+let orResult = (a>5 || b>5);
 //
 // Do not edit below this line, this code will display the values on the page
 //
